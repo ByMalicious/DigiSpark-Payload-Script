@@ -25,4 +25,5 @@ Note - Note
 
 
 Responsibility for malicious uses belongs to the user.
+
 Kötü niyetli kullanımlar sorumluluğu kullanıcıya aittir.
