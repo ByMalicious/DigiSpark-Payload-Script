@@ -1,4 +1,3 @@
 # DigiSpark-Payload-Script
 
-denem
-deneme
+Payload Scripti Geliştirildikçe Yenilenmeye Devam Edecektir.
