@@ -11,6 +11,18 @@ TR - Sorularınız için
 EN - For your questions
 
 
+
 İnstagram; @ByMalicious
 
 Discord; ByMalicious#4727
+
+
+
+
+
+
+Note - Note
+
+
+Responsibility for malicious uses belongs to the user.
+Kötü niyetli kullanımlar sorumluluğu kullanıcıya aittir.
