@@ -12,4 +12,5 @@ EN - For your questions
 
 
 İnstagram; @ByMalicious
+
 Discord; ByMalicious#4727
